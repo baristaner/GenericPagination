@@ -1,0 +1,6 @@
+@GenericPagination.TestAPI_HostAddress = http://localhost:5254
+
+GET {{GenericPagination.TestAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
